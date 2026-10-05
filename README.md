@@ -21,7 +21,8 @@ A collection of two machine learning projects demonstrating exploratory data ana
 - [Technologies](#technologies)
 - [Getting Started](#getting-started)
 - [Evaluation Notes](#evaluation-notes)
-- [Future Improvements](#future-improvements)
+- [Dataset Attribution](dataset-attribution)
+  
 
 ## Projects at a Glance
 
@@ -192,13 +193,6 @@ The reported results are taken from the outputs saved in the notebooks. Package 
 
 The insurance project compares model degrees on one test split. A stronger future evaluation would select the degree through cross-validation on training data and reserve a separate test set for final assessment.
 
-## Future Improvements
-
-- Package preprocessing and regression in scikit-learn pipelines.
-- Add residual plots and investigate large prediction errors.
-- Use cross-validation and regularization such as Ridge for polynomial model selection.
-- Record dependency versions and save fitted models for reuse.
-- Record dependency versions for reproducible execution.
 
 ## Dataset Attribution
 
