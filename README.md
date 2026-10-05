@@ -132,18 +132,13 @@ The degree-2 model has a saved test MSE of **17,960,182.825**. It performs best 
 The exploratory analysis finds a strong association between smoking and higher charges, with BMI patterns differing by smoking status. These are associations in the dataset, rather than evidence of causation.
 
 ## Project Structure
-
-All project files are kept in the repository root:
-
-- **`README.md`** — Overview, results, and setup instructions.
-- **Student Performance Prediction**
-  - `LinearRegression.ipynb` — Exploratory analysis and linear regression model.
-  - `Student_Performance.csv` — Input dataset.
-- **Insurance Charges Prediction**
-  - `PolynomialReg.ipynb` — Exploratory analysis and polynomial regression comparison.
-  - `insurance.csv` — Input dataset.
-
-Keep each CSV alongside its notebook when using the relative paths described below.
+Student-Performance-and-Insurance-Charges-Prediction-ML-Models/
+│
+├── LinearRegression.ipynb
+├── PolynomialReg.ipynb
+├── README.md
+├── Student_Performance.csv
+└── insurance.csv
 
 ## Technologies
 
